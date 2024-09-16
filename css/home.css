@@ -49,3 +49,10 @@ body {
 .navbar-nav .nav-link:hover::before {
   width: 100%; /* La barrita se expande al ancho del enlace al hacer hover */
 }
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; /* Se redondea los indicadores*/
+  background-color: rgba(255, 255, 255, 0.5);
+}
