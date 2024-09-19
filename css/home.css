@@ -1,12 +1,22 @@
+/* ===================== */
+/* Sección: Estilos Generales */
+/* ===================== */
+
 body {
   background-color: #f2f2f2; /* Gris claro */
+  /*font-family: "Lato", sans-serif;*/
 }
 
 .bg-custom {
   background-color: #004d40;
 }
 
-.logo-text {
+/* ===================== */
+/* Sección: Header y Navegación */
+/* ===================== */
+
+.logo-text,
+.sinopsis-title {
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -50,9 +60,94 @@ body {
   width: 100%; /* La barrita se expande al ancho del enlace al hacer hover */
 }
 
+/* ===================== */
+/* Sección: carousel */
+/* ===================== */
+
 .carousel-indicators button {
   width: 12px;
   height: 12px;
   border-radius: 50%; /* Se redondea los indicadores*/
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ===================== */
+/* Sección: Boton "Comprar" en pagina de detalles */
+/* ===================== */
+
+.btn-purchase {
+  background-image: linear-gradient(135deg, #004d40, #00695c);
+  color: #ffffff;
+  border: none;
+  width: 150px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-image 0.3s ease, transform 0.2s ease;
+}
+
+.btn-purchase:hover {
+  background-image: linear-gradient(135deg, #00695c, #004d40);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-purchase:active {
+  background-image: linear-gradient(135deg, #004d40, #003d34);
+  color: #ffffff !important;
+  transform: translateY(0);
+}
+
+/* ===================== */
+/* Sección: Boton agregar a favoritos */
+/* ===================== */
+
+.icon-add-favorites {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-add-favorites:focus {
+  outline: none;
+}
+
+.icon-add-favorites svg {
+  color: #004d40;
+}
+
+.icon-add-favorites:hover {
+  background-color: #e0f2f1;
+}
+
+/* ===================== */
+/* Sección: Barra divisora */
+/* ===================== */
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 40px 0; /* Espacio superior e inferior */
+}
+
+/* ===================== */
+/* Sección: sinopsis */
+/* ===================== */
+
+.sinopsis-title {
+  font-family: "Playfair Display", serif;
+  color: #004d40;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p.sinopsis-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
 }
