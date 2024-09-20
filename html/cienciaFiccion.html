@@ -33,8 +33,12 @@
 	</head>
 	<body class="d-flex flex-column min-vh-100">
 		<header>
-			<div class="container text-bg-dark text-start py-2">
-				<a href="#principal">Saltar al contenido principal</a>
+			<div>
+				<a
+					href="#principal"
+					class="sr-only"
+					>Saltar al contenido principal</a
+				>
 			</div>
 			<nav
 				class="navbar navbar-expand-lg bg-custom shadow sticky-top rounded-bottom"
@@ -42,7 +46,7 @@
 				<div class="container">
 					<a
 						class="navbar-brand d-flex align-items-center"
-						href="#"
+						href="home.html"
 					>
 						<img
 							src="../img/logo.png"
@@ -112,59 +116,112 @@
 				</div>
 			</nav>
 		</header>
-		<main class="py-3 shadow">
-			<h1
-				id="principal"
-				class="h1 text-bg-primary text-center"
-			>
-				Ciencia Ficción
-			</h1>
-			<div class="container">
-				<p class="text-info text-center py-2">
-					Al ingresar en esta seccción, Estás ingresando al
-					maravilloso mundo de la
-					<strong>Ciencia Ficción</strong>. <br />
-					Podrás encontrar los clásicos de éste género y también los
-					recién publicados.
-				</p>
-			</div>
-			<h2 class="h2 text-bg-secondary text-center">Listado de Libros</h2>
-
-			<!--comienxo de cards -->
-
-			<!--card 1-->
-
-			<div class="container py-1"></div>
-			<div class="row py-3 justify-content-center">
-				<div class="card col-3">
-					<img
-						src="../img/libros/guerra-galaxias.jpeg"
-						class="card-img-top"
-						alt="Darth Vader, está de pie en el centro de la imagen, vistiendo traje negro con una capa y un casco que cubre su rostro. Sus ojos brillan en rojo intenso. A su lado, un sable de luz rojo encendido. En el fondo, hay un cielo estrellado y un caza TIE. La escena tiene un ambiente oscuro y espacial."
-					/>
-					<div class="card-body">
-						<h3 class="card-title">La Guerra de las Galáxias</h3>
-						<p class="card-text">
-							Este es el primer libro de ésta épica saga , escrita
-							por el genial
-							<strong> George Lucas</strong>.
-						</p>
+		<main>
+			<div class="container my-3">
+				<h2
+					id="principal"
+					class="h2 ms-5"
+				>
+					Ciencia Ficción
+				</h2>
+				<div class="container ms-5">
+					<p class="py-2">
+						Al ingresar en esta seccción, Estás ingresando al
+						maravilloso mundo de la
+						<strong>Ciencia Ficción</strong>. Podrás encontrar los
+						clásicos de éste género y también los recién publicados.
+					</p>
+				</div>
+				<!-- para que es el link de abajo?-->
+				<div class="container py-1"></div>
+				<!--el div de abajo es el contenedor de las cards-->
+				<div class="row py-3 justify-content-center">
+					<!--card 1-->
+					<div class="card col-3">
+						<img
+							src="../img/libros/guerra-galaxias.jpeg"
+							class="card-img-top"
+							alt="Darth Vader, está de pie en el centro de la imagen, vistiendo traje negro con una capa y un casco que cubre su rostro. Sus ojos brillan en rojo intenso. A su lado, un sable de luz rojo encendido. En el fondo, hay un cielo estrellado y un caza TIE. La escena tiene un ambiente oscuro y espacial."
+						/>
+						<div class="card-body">
+							<h3 class="card-title fs-5">
+								<strong> La Guerra de las Galáxias</strong>
+							</h3>
+							<p class="card-text">
+								Este es el primer libro de ésta épica saga ,
+								escrita por el genial
+								<strong> George Lucas</strong>.
+							</p>
+						</div>
+						<div class="mb-5 d-flex justify-content-around">
+							<a
+								href="#"
+								class="btn btn-primary"
+								>Ver ficha completa de: La Guerra de las
+								Galáxias
+							</a>
+						</div>
 					</div>
-					<div class="mb-5 d-flex justify-content-around">
-						<a
-							href="#"
-							class="btn btn-primary"
-							>Ver ficha completa de: La Guerra de las Galáxias
-						</a>
+
+					<!--card 2-->
+					<div class="card col-3">
+						<img
+							src="../img/libros/dune.jpeg"
+							class="card-img-top"
+							alt="Una persona vestida con traje espacial futurista y un casco con visera que cubre su rostro , en un paisaje desértico con dunas de arena y formaciones rocosas. Sostiene un objeto en su mano derecha. todo bajo una luz anaranjada intensa que sugiere un atardecer ."
+						/>
+						<div class="card-body">
+							<h3 class="card-title fs-5">
+								<strong> DUNE</strong>
+							</h3>
+							<p class="card-text">
+								Un universo de intrigas, ecología y destino. La
+								saga
+								<strong> "Dune"</strong> del increíble
+								<strong> Frank Herbert</strong>, es una de las
+								obras de ciencia ficción más influyentes y
+								aclamadas de todos los tiempos.
+							</p>
+						</div>
+						<div class="mb-5 d-flex justify-content-around">
+							<a
+								href="#"
+								class="btn btn-primary"
+								>Ver ficha completa de: Dune
+							</a>
+						</div>
 					</div>
+
+					<!--card 3-->
+					<div class="card col-3">
+						<img
+							src="../img/libros/crepusculo.jpeg"
+							class="card-img-top"
+							alt="En primer plano, una mano de piel clara sostiene por el tallo una copa de vino tinto. En el fondo, hay varias velas encendidas que proporcionan una iluminación cálida y tenue, creando un ambiente acogedor y elegante. La superficie sobre la que descansa la mano es de madera. La escena tiene un aire sofisticado y tranquilo."
+						/>
+						<div class="card-body">
+							<h3 class="card-title fs-5">
+								<strong>Crepúsculo</strong>
+							</h3>
+							<p class="card-text">
+								Amor, vampiros y un triángulo amoroso, son parte
+								de este fenómeno mundial escrito por la
+								maravillosa
+								<strong>Stephanie Meyer</strong>.
+							</p>
+						</div>
+						<div class="mb-5 d-flex justify-content-around">
+							<a
+								href="#"
+								class="btn btn-primary"
+								>Ver ficha completa de: Crepúsculo
+							</a>
+						</div>
+					</div>
+
+					<!--el div de abajo es el cierre del contenedor de las cards -->
 				</div>
 			</div>
-
-			<!--card 2-->
-
-			<!--card 3-->
-
-			<hr />
 		</main>
 
 		<footer class="footer mt-auto py-3 bg-custom shadow rounded-top">
