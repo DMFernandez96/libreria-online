@@ -56,3 +56,7 @@ body {
   border-radius: 50%; /* Se redondea los indicadores*/
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+.subtitulo-home {
+  font-size: xx-large;
+}
