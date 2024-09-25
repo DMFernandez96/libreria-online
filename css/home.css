@@ -1,4 +1,4 @@
-    body {
+body {
   background-color: #f2f2f2; /* Gris claro */
 }
 
@@ -55,4 +55,22 @@
   height: 12px;
   border-radius: 50%; /* Se redondea los indicadores*/
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*////////////////////*/
+/* Sección: Cards de libros en pantalla de categorias */
+/*///////////////////*/
+
+.card {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: contain; /* Ajusta la imagen sin recortarla */
+}
+
+.card-title {
+  min-height: 45px;
 }

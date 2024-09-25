@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ciencia Ficción</title>
+    <title>Policial</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,13 +19,9 @@
     <link rel="stylesheet" href="../css/home.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
-	    <header>
-      <a href="#principal" class="visually-hidden"
-        >Saltar al contenido</a
-      >
-      <nav
-        class="navbar navbar-expand-lg bg-custom shadow sticky-top rounded-bottom"
-      >
+    <header class="sticky-top">
+      <a href="#principal" class="visually-hidden">Saltar al contenido</a>
+      <nav class="navbar navbar-expand-lg bg-custom shadow rounded-bottom">
         <div class="container">
           <a class="navbar-brand d-flex align-items-center" href="home.html">
             <img
@@ -66,10 +62,14 @@
                   aria-labelledby="categoriesDropdown"
                 >
                   <li>
-                    <a class="dropdown-item" href="#">Ciencia Ficción</a>
+                    <a class="dropdown-item" href="cienciaFiccion.html"
+                      >Ciencia Ficción</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Policiales</a>
+                    <a class="dropdown-item" href="novelaPolicial.html"
+                      >Policiales</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -83,121 +83,189 @@
     </header>
     <main>
       <div class="container my-3">
-        <h2 id="principal" class="h2 ms-5">Novela policíaca</h2>
-        <div class="container ms-5">
+        <h2 id="principal" class="h2 ms-lg-5">Novela policíaca</h2>
+        <div class="container ms-lg-5">
           <p class="py-2">
             La novela policíaca es un género narrativo en donde la trama
             consiste generalmente en la resolución de un misterio de tipo
             criminal.
-            <strong>Novela policíaca</strong>.
           </p>
         </div>
-        <!-- para que es el link de abajo?-->
-        <div class="container py-1"></div>
-        <!--el div de abajo es el contenedor de las cards-->
-        <div class="row py-3 justify-content-center">
+        <!--el div de abajo es la 1ra fila de cards-->
+        <div class="row justify-content-center mb-3">
           <!--card 1-->
-          <div class="card col-3">
-            <img
-              src="../img/novelaPolicial/el-sepulturero.jpg"
-              class="card-img-top"
-              alt=""
-            />
-            <div class="card-body">
+          <div class="card col-lg-2 col-md-3 col-6 mb-0">
+            <!-- link a pagina de detalles-->
+            <a
+              href="elPsicoanalistaEnLaMira.html"
+              aria-label="Ver detalles del libro El psicoanalista en la mira de John Katzenbach"
+            >
+              <img
+                src="../img/novelaPolicial/elPsicoanalistaEnLaMira.jpg"
+                class="card-img-top"
+                alt="Portada del libro El psicoanalista en la mira de John Katzenbach"
+              />
+            </a>
+            <div class="card-body py-1">
               <h3 class="card-title fs-5">
-                <strong> El sepulturero</strong>
+                <strong> El psicoanalista en la mira</strong>
               </h3>
-              <p class="card-text">
-                En el Prater, el parque más importante de la ciudad, aparece el
-                cuerpo de una criada asesinada de forma brutal.
-                <strong> Oliver Pötzsch</strong>.
-              </p>
-            </div>
-            <div class="mb-5 d-flex justify-content-around">
-              <a href="#" class="btn btn-primary"
-                >Ver ficha completa de: El sepulturero
-              </a>
+              <p class="card-author mb-2"><strong> John Katzenbach</strong></p>
+              <p class="card-price">$40.399,00</p>
             </div>
           </div>
-
           <!--card 2-->
-          <div class="card col-3">
-            <img
-              src="../img/novelaPolicial/la-casa-de-los-suicidios.jpg"
-              class="card-img-top"
-              alt=""
-            />
-            <div class="card-body">
+          <div class="card col-lg-2 col-md-3 col-6">
+            <!-- link a pagina de detalles-->
+            <a
+              href="elLibroDelSepulturero.html"
+              aria-label="Ver detalles del libro El libro del sepulturero de Oliver Pötzsch"
+            >
+              <img
+                src="../img/novelaPolicial/el-sepulturero.jpg"
+                class="card-img-top"
+                alt="Portada del libro El libro del sepulturero de Oliver Pötzsch"
+              />
+            </a>
+            <div class="card-body py-1">
+              <h3 class="card-title fs-5">
+                <strong> El libro del sepulturero</strong>
+              </h3>
+              <p class="card-author mb-2"><strong> Oliver Pötzsch</strong></p>
+              <p class="card-price">$24.720,05</p>
+            </div>
+          </div>
+          <!--card 3-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="laCasaDeLosSuicidios.html"
+              aria-label="Ver detalles del libro La casa de los suicidios de Charlie Donlea"
+            >
+              <img
+                src="../img/novelaPolicial/la-casa-de-los-suicidios.jpg"
+                class="card-img-top"
+                alt="Portada del libro La casa de los suicidios de Charlie Donlea"
+              />
+            </a>
+            <div class="card-body py-1">
               <h3 class="card-title fs-5">
                 <strong>La casa de los suicidios</strong>
               </h3>
-              <p class="card-text">
-                El internado Westmont es un prestigioso instituto en el que las
-                expectativas son altas y las reglas estrictas. El edificio esta
-                rodeado de bosques; y alli; en una zona alejada hay una
-                residencia abandonada donde los estudiantes se reunen por las
-                noches
-                <strong>Charley Donlea</strong>
-              </p>
-            </div>
-            <div class="mb-5 d-flex justify-content-around">
-              <a href="#" class="btn btn-primary"
-                >Ver ficha completa de: La casa de los suicidios
-              </a>
+              <p class="card-author mb-2"><strong>Charlie Donlea</strong></p>
+              <p class="card-price">$26.900,00</p>
             </div>
           </div>
-
-          <!--card 3-->
-          <div class="card col-3">
-            <img
-              src="../img/novelaPolicial/la-chica-que-se-llevaron.jpg"
-              class="card-img-top"
-              alt=""
-            />
-            <div class="card-body">
+          <!--card 4-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="sitioEnConstruccion.html"
+              aria-label="Ver detalles del libro La chica que se llevaron de Charlie Donlea"
+            >
+              <img
+                src="../img/novelaPolicial/laChicaQueSeLlevaron.jpg"
+                class="card-img-top"
+                alt="Portada del libro La chica que se llevaron de Charlie Donlea"
+              />
+            </a>
+            <div class="card-body py-1">
               <h3 class="card-title fs-5">
                 <strong>La chica que se llevaron</strong>
               </h3>
-              <p class="card-text">
-                Megan McDonald esta terminando el bachillerato: es popular;
-                carismatica; desarrollo un programa para la adaptacion de los
-                alumnos mas jovenes; premiado en el pais y tiene un futuro
-                increible por delante.
-                <strong>Charley Donlea</strong>.
-              </p>
-            </div>
-            <div class="mb-5 d-flex justify-content-around">
-              <a href="#" class="btn btn-primary"
-                >Ver ficha completa de: La chica que se llevaron
-              </a>
+              <p class="card-author mb-2"><strong>Charlie Donlea</strong></p>
+              <p class="card-price">$26.900,00</p>
             </div>
           </div>
-          <div class="card col-3">
-            <img
-              src="../img/novelaPolicial/el-silencio-de-la-ciudad.jpg"
-              class="card-img-top"
-              alt=""
-            />
-            <div class="card-body">
+        </div>
+        <!--el div de abajo es la 2da fila de cards-->
+        <div class="row justify-content-center mb-3">
+          <!-- Card 5-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="sitioEnConstruccion.html"
+              aria-label="Ver detalles del libro El silencio de la ciudad blanca de Eva García Sáenz de Urturi"
+            >
+              <img
+                src="../img/novelaPolicial/el-silencio-de-la-ciudad.jpg"
+                class="card-img-top"
+                alt="Portada del libro El silencio de la ciudad blanca de Eva García Sáenz de Urturi"
+              />
+            </a>
+            <div class="card-body py-1">
               <h3 class="card-title fs-5">
-                <strong>Silencio de la ciudad</strong>
+                <strong>El silencio de la ciudad blanca</strong>
               </h3>
-              <p class="card-text">
-                Vitoria, 2016. Los cadáveres de un chico y una chica de veinte
-                años aparecen desnudos en la cripta de la Catedral Vieja. Unai
-                López de Ayala, un inspector experto en perfiles criminales,
-                debe cazar al asesino ritual que lleva aterrorizando a la ciudad
-                desde hace dos décadas.
-                <strong>Eva García Sáenz de Urturi</strong>.
+              <p class="card-author mb-2">
+                <strong>Eva G. S. de Urturi</strong>
               </p>
-            </div>
-            <div class="mb-5 d-flex justify-content-around">
-              <a href="#" class="btn btn-primary"
-                >Ver ficha completa de: El silencio de la ciudad
-              </a>
+              <p class="card-price">$33.600,00</p>
             </div>
           </div>
-          <!--el div de abajo es el cierre del contenedor de las cards -->
+          <!-- Card 6-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="sitioEnConstruccion.html"
+              aria-label="Ver detalles del libro El Intercambio de John Grisham"
+            >
+              <img
+                src="../img/novelaPolicial/elIntercambio.jpg"
+                class="card-img-top"
+                alt="Portada del libro El Intercambio de John Grisham"
+              />
+            </a>
+            <div class="card-body py-1">
+              <h3 class="card-title fs-5">
+                <strong>El intercambio</strong>
+              </h3>
+              <p class="card-author mb-2">
+                <strong>John Grisham</strong>
+              </p>
+              <p class="card-price">$29.199,00</p>
+            </div>
+          </div>
+          <!-- Card 7-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="sitioEnConstruccion.html"
+              aria-label="Ver detalles del libro El problema final de Arturo Perez-Reverte"
+            >
+              <img
+                src="../img/novelaPolicial/elProblemaFinal.jpg"
+                class="card-img-top"
+                alt="Portada del libro El problema final de Arturo Perez-Reverte"
+              />
+            </a>
+            <div class="card-body py-1">
+              <h3 class="card-title fs-5">
+                <strong>El problema final</strong>
+              </h3>
+              <p class="card-author mb-2">
+                <strong>Arturo Perez-Reverte</strong>
+              </p>
+              <p class="card-price">$26.299,00</p>
+            </div>
+          </div>
+          <!-- Card 8-->
+          <div class="card col-lg-2 col-md-3 col-6">
+            <a
+              href="sitioEnConstruccion.html"
+              aria-label="Ver detalles del libro Cuentos Policiales de Edgar Allan Poe"
+            >
+              <img
+                src="../img/novelaPolicial/cuentosPoliciales.jpg"
+                class="card-img-top"
+                alt="Portada del libro Cuentos Policiales de Edgar Allan Poe"
+              />
+            </a>
+            <div class="card-body py-1">
+              <h3 class="card-title fs-5">
+                <strong>Cuentos policiales</strong>
+              </h3>
+              <p class="card-author mb-2">
+                <strong>Edgar Allan Poe</strong>
+              </p>
+              <p class="card-price">$18.500,00</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>

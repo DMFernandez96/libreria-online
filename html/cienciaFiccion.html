@@ -1,268 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Ciencia Ficción</title>
-		<link
-			rel="preconnect"
-			href="https://fonts.googleapis.com"
-		/>
-		<link
-			rel="preconnect"
-			href="https://fonts.gstatic.com"
-			crossorigin
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="../css/home.css"
-		/>
-	</head>
-	<body class="d-flex flex-column min-vh-100">
-		<header>
-			<div>
-				<a
-					href="#principal"
-					class="visually-hidden"
-					>Saltar al contenido principal</a
-				>
-			</div>
-			<nav
-				class="navbar navbar-expand-lg bg-custom shadow sticky-top rounded-bottom"
-			>
-				<div class="container">
-					<a
-						class="navbar-brand d-flex align-items-center"
-						href="home.html"
-					>
-						<img
-							src="../img/logo.png"
-							alt="Logo Librería"
-							width="50"
-							height="50"
-							class="d-inline-block align-top img-fluid"
-						/>
-						<span class="logo-text ms-2">Mundos de tinta</span>
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse"
-						id="navbarNav"
-					>
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item dropdown dropdown-hover mx-2">
-								<a
-									class="nav-link dropdown-toggle"
-									href="#"
-									id="categoriesDropdown"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Categorías
-								</a>
-								<ul
-									class="dropdown-menu mt-3"
-									aria-labelledby="categoriesDropdown"
-								>
-									<li>
-										<a
-											class="dropdown-item"
-											href="#"
-											>Ciencia Ficción</a
-										>
-									</li>
-									<li>
-										<a
-											class="dropdown-item"
-											href="#"
-											>Policiales</a
-										>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item mx-2">
-								<a
-									class="nav-link"
-									href="#"
-									>Quiénes Somos</a
-								>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<main>
-			<div class="container my-3">
-				<h2
-					id="principal"
-					class="h2 ms-5"
-				>
-					Ciencia Ficción
-				</h2>
-				<div class="container ms-5">
-					<p class="py-2">
-						Al ingresar en esta seccción, Estás ingresando al
-						maravilloso mundo de la
-						<strong>Ciencia Ficción</strong>. Podrás encontrar los
-						clásicos de éste género y también los recién publicados.
-					</p>
-				</div>
-				<!-- para que es el link de abajo?-->
-				<div class="container py-1"></div>
-				<!--el div de abajo es el contenedor de las cards-->
-				<div class="row py-3 justify-content-center">
-					<!--card 1-->
-					<div class="card col-3">
-						<img
-							src="../img/libros/guerra-galaxias.jpeg"
-							class="card-img-top"
-							alt="Darth Vader, está de pie en el centro de la imagen, vistiendo traje negro con una capa y un casco que cubre su rostro. Sus ojos brillan en rojo intenso. A su lado, un sable de luz rojo encendido. En el fondo, hay un cielo estrellado y un caza TIE. La escena tiene un ambiente oscuro y espacial."
-						/>
-						<div class="card-body">
-							<h3 class="card-title fs-5">
-								<strong> La Guerra de las Galáxias</strong>
-							</h3>
-							<p class="card-text">
-								Este es el primer libro de ésta épica saga ,
-								escrita por el genial
-								<strong> George Lucas</strong>.
-							</p>
-						</div>
-						<div class="mb-5 d-flex justify-content-around">
-							<a
-								href="#"
-								class="btn btn-primary"
-								>Ver ficha completa de: La Guerra de las
-								Galáxias
-							</a>
-						</div>
-					</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciencia Ficción</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="sticky-top">
+      <a href="#principal" class="visually-hidden">Saltar al contenido</a>
+      <nav class="navbar navbar-expand-lg bg-custom shadow rounded-bottom">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="home.html">
+            <img
+              src="../img/logo.png"
+              alt="Logo Librería"
+              width="50"
+              height="50"
+              class="d-inline-block align-top img-fluid"
+            />
+            <span class="logo-text ms-2">Mundos de tinta</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="categoriesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorías
+                </a>
+                <ul
+                  class="dropdown-menu mt-3"
+                  aria-labelledby="categoriesDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="cienciaFiccion.html"
+                      >Ciencia Ficción</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="novelaPolicial.html"
+                      >Policiales</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Quiénes Somos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container my-3">
+        <h2 id="principal" class="h2 ms-5">Ciencia Ficción</h2>
+        <div class="container ms-5">
+          <p class="py-2">
+            Al ingresar en esta seccción, Estás ingresando al maravilloso mundo
+            de la
+            <strong>Ciencia Ficción</strong>. Podrás encontrar los clásicos de
+            éste género y también los recién publicados.
+          </p>
+        </div>
+        <!-- para que es el link de abajo?-->
+        <div class="container py-1"></div>
+        <!--el div de abajo es el contenedor de las cards-->
+        <div class="row py-3 justify-content-center">
+          <!--card 1-->
+          <div class="card col-3">
+            <img
+              src="../img/libros/guerra-galaxias.jpeg"
+              class="card-img-top"
+              alt="Darth Vader, está de pie en el centro de la imagen, vistiendo traje negro con una capa y un casco que cubre su rostro. Sus ojos brillan en rojo intenso. A su lado, un sable de luz rojo encendido. En el fondo, hay un cielo estrellado y un caza TIE. La escena tiene un ambiente oscuro y espacial."
+            />
+            <div class="card-body">
+              <h3 class="card-title fs-5">
+                <strong> La Guerra de las Galáxias</strong>
+              </h3>
+              <p class="card-text">
+                Este es el primer libro de ésta épica saga , escrita por el
+                genial
+                <strong> George Lucas</strong>.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <a href="#" class="btn btn-primary"
+                >Ver ficha completa de: La Guerra de las Galáxias
+              </a>
+            </div>
+          </div>
 
-					<!--card 2-->
-					<div class="card col-3">
-						<img
-							src="../img/libros/dune.jpeg"
-							class="card-img-top"
-							alt="Una persona vestida con traje espacial futurista y un casco con visera que cubre su rostro , en un paisaje desértico con dunas de arena y formaciones rocosas. Sostiene un objeto en su mano derecha. todo bajo una luz anaranjada intensa que sugiere un atardecer ."
-						/>
-						<div class="card-body">
-							<h3 class="card-title fs-5">
-								<strong> DUNE</strong>
-							</h3>
-							<p class="card-text">
-								Un universo de intrigas, ecología y destino. La
-								saga
-								<strong> "Dune"</strong> del increíble
-								<strong> Frank Herbert</strong>, es una de las
-								obras de ciencia ficción más influyentes y
-								aclamadas de todos los tiempos.
-							</p>
-						</div>
-						<div class="mb-5 d-flex justify-content-around">
-							<a
-								href="#"
-								class="btn btn-primary"
-								>Ver ficha completa de: Dune
-							</a>
-						</div>
-					</div>
+          <!--card 2-->
+          <div class="card col-3">
+            <img
+              src="../img/libros/dune.jpeg"
+              class="card-img-top"
+              alt="Una persona vestida con traje espacial futurista y un casco con visera que cubre su rostro , en un paisaje desértico con dunas de arena y formaciones rocosas. Sostiene un objeto en su mano derecha. todo bajo una luz anaranjada intensa que sugiere un atardecer ."
+            />
+            <div class="card-body">
+              <h3 class="card-title fs-5">
+                <strong> DUNE</strong>
+              </h3>
+              <p class="card-text">
+                Un universo de intrigas, ecología y destino. La saga
+                <strong> "Dune"</strong> del increíble
+                <strong> Frank Herbert</strong>, es una de las obras de ciencia
+                ficción más influyentes y aclamadas de todos los tiempos.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <a href="#" class="btn btn-primary"
+                >Ver ficha completa de: Dune
+              </a>
+            </div>
+          </div>
 
-					<!--card 3-->
-					<div class="card col-3">
-						<img
-							src="../img/libros/crepusculo.jpeg"
-							class="card-img-top"
-							alt="En primer plano, una mano de piel clara sostiene por el tallo una copa de vino tinto. En el fondo, hay varias velas encendidas que proporcionan una iluminación cálida y tenue, creando un ambiente acogedor y elegante. La superficie sobre la que descansa la mano es de madera. La escena tiene un aire sofisticado y tranquilo."
-						/>
-						<div class="card-body">
-							<h3 class="card-title fs-5">
-								<strong>Crepúsculo</strong>
-							</h3>
-							<p class="card-text">
-								Amor, vampiros y un triángulo amoroso, son parte
-								de este fenómeno mundial escrito por la
-								maravillosa
-								<strong>Stephanie Meyer</strong>.
-							</p>
-						</div>
-						<div class="mb-5 d-flex justify-content-around">
-							<a
-								href="#"
-								class="btn btn-primary"
-								>Ver ficha completa de: Crepúsculo
-							</a>
-						</div>
-					</div>
-					<div class="card col-3">
-						<img
-							src="../img/libros/yo_robot.jpg"
-							class="card-img-top"
-							alt="En primer plano, una mano de piel clara sostiene por el tallo una copa de vino tinto. En el fondo, hay varias velas encendidas que proporcionan una iluminación cálida y tenue, creando un ambiente acogedor y elegante. La superficie sobre la que descansa la mano es de madera. La escena tiene un aire sofisticado y tranquilo."
-						/>
-						<div class="card-body">
-							<h3 class="card-title fs-5">
-								<strong>Yo Robot</strong>
-							</h3>
-							<p class="card-text">
-								relatos basados en las tres leyes de la robótica 
-								que son un compendio fijo e imprescindible de moral aplicable a 
-								supuestos robots inteligentes, 
-								con las que supuestamente nunca debería haber un conflicto
-								 si se cumplieran fielmente.
-								<strong>Isaac Asimov</strong>.
-							</p>
-						</div>
-						<div class="mb-5 d-flex justify-content-around">
-							<a
-								href="#"
-								class="btn btn-primary"
-								>Ver ficha completa de: Crepúsculo
-							</a>
-						</div>
-					</div>
-					<!--el div de abajo es el cierre del contenedor de las cards -->
-				</div>
-			</div>
-		</main>
+          <!--card 3-->
+          <div class="card col-3">
+            <img
+              src="../img/libros/crepusculo.jpeg"
+              class="card-img-top"
+              alt="En primer plano, una mano de piel clara sostiene por el tallo una copa de vino tinto. En el fondo, hay varias velas encendidas que proporcionan una iluminación cálida y tenue, creando un ambiente acogedor y elegante. La superficie sobre la que descansa la mano es de madera. La escena tiene un aire sofisticado y tranquilo."
+            />
+            <div class="card-body">
+              <h3 class="card-title fs-5">
+                <strong>Crepúsculo</strong>
+              </h3>
+              <p class="card-text">
+                Amor, vampiros y un triángulo amoroso, son parte de este
+                fenómeno mundial escrito por la maravillosa
+                <strong>Stephanie Meyer</strong>.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <a href="#" class="btn btn-primary"
+                >Ver ficha completa de: Crepúsculo
+              </a>
+            </div>
+          </div>
+          <div class="card col-3">
+            <img
+              src="../img/libros/yo_robot.jpg"
+              class="card-img-top"
+              alt="En primer plano, una mano de piel clara sostiene por el tallo una copa de vino tinto. En el fondo, hay varias velas encendidas que proporcionan una iluminación cálida y tenue, creando un ambiente acogedor y elegante. La superficie sobre la que descansa la mano es de madera. La escena tiene un aire sofisticado y tranquilo."
+            />
+            <div class="card-body">
+              <h3 class="card-title fs-5">
+                <strong>Yo Robot</strong>
+              </h3>
+              <p class="card-text">
+                relatos basados en las tres leyes de la robótica que son un
+                compendio fijo e imprescindible de moral aplicable a supuestos
+                robots inteligentes, con las que supuestamente nunca debería
+                haber un conflicto si se cumplieran fielmente.
+                <strong>Isaac Asimov</strong>.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <a href="#" class="btn btn-primary"
+                >Ver ficha completa de: Crepúsculo
+              </a>
+            </div>
+          </div>
+          <!--el div de abajo es el cierre del contenedor de las cards -->
+        </div>
+      </div>
+    </main>
 
-		<footer class="footer mt-auto py-3 bg-custom shadow rounded-top">
-			<div class="container text-center py-3">
-				<p class="text-light">
-					© 2024 Mundos de Tinta - Librería Online. Todos los derechos
-					reservados.
-				</p>
-			</div>
-		</footer>
+    <footer class="footer mt-auto py-3 bg-custom shadow rounded-top">
+      <div class="container text-center py-3">
+        <p class="text-light">
+          © 2024 Mundos de Tinta - Librería Online. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
