@@ -71,6 +71,28 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*////////////////////*/
+/* Sección: Cards de libros en pantalla de categorias */
+/*///////////////////*/
+
+.card {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: contain; /* Ajusta la imagen sin recortarla */
+}
+
+.card-title {
+  min-height: 45px;
+}
+
+.subtitulo-home {
+  font-size: xx-large;
+}
+
 /* ===================== */
 /* Sección: Datos y boton "Comprar" en pagina de detalles */
 /* ===================== */
