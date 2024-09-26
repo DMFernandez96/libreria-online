@@ -1,288 +1,307 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Policial</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/home.css" />
-  </head>
-  <body class="d-flex flex-column min-vh-100">
-    <header class="sticky-top">
-      <a href="#principal" class="visually-hidden">Saltar al contenido</a>
-      <nav class="navbar navbar-expand-lg bg-custom shadow rounded-bottom">
-        <div class="container">
-          <a class="navbar-brand d-flex align-items-center" href="home.html">
-            <img
-              src="../img/logo.png"
-              alt="Logo Librería"
-              width="50"
-              height="50"
-              class="d-inline-block align-top img-fluid"
-            />
-            <span class="logo-text ms-2">Mundos de tinta</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown dropdown-hover mx-2">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="categoriesDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Categorías
-                </a>
-                <ul
-                  class="dropdown-menu mt-3"
-                  aria-labelledby="categoriesDropdown"
-                >
-                  <li>
-                    <a class="dropdown-item" href="cienciaFiccion.html"
-                      >Ciencia Ficción</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="novelaPolicial.html"
-                      >Policiales</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Quiénes Somos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="container my-3">
-        <h2 id="principal" class="h2 ms-lg-5">Novela policíaca</h2>
-        <div class="container ms-lg-5">
-          <p class="py-2">
-            La novela policíaca es un género narrativo en donde la trama
-            consiste generalmente en la resolución de un misterio de tipo
-            criminal.
-          </p>
-        </div>
-        <!--el div de abajo es la 1ra fila de cards-->
-        <div class="row justify-content-center mb-3">
-          <!--card 1-->
-          <div class="card col-lg-2 col-md-3 col-6 mb-0">
-            <!-- link a pagina de detalles-->
-            <a
-              href="elPsicoanalistaEnLaMira.html"
-              aria-label="Ver detalles del libro El psicoanalista en la mira de John Katzenbach"
-            >
-              <img
-                src="../img/novelaPolicial/elPsicoanalistaEnLaMira.jpg"
-                class="card-img-top"
-                alt="Portada del libro El psicoanalista en la mira de John Katzenbach"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong> El psicoanalista en la mira</strong>
-              </h3>
-              <p class="card-author mb-2"><strong> John Katzenbach</strong></p>
-              <p class="card-price">$40.399,00</p>
-            </div>
-          </div>
-          <!--card 2-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <!-- link a pagina de detalles-->
-            <a
-              href="elLibroDelSepulturero.html"
-              aria-label="Ver detalles del libro El libro del sepulturero de Oliver Pötzsch"
-            >
-              <img
-                src="../img/novelaPolicial/el-sepulturero.jpg"
-                class="card-img-top"
-                alt="Portada del libro El libro del sepulturero de Oliver Pötzsch"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong> El libro del sepulturero</strong>
-              </h3>
-              <p class="card-author mb-2"><strong> Oliver Pötzsch</strong></p>
-              <p class="card-price">$24.720,05</p>
-            </div>
-          </div>
-          <!--card 3-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="laCasaDeLosSuicidios.html"
-              aria-label="Ver detalles del libro La casa de los suicidios de Charlie Donlea"
-            >
-              <img
-                src="../img/novelaPolicial/la-casa-de-los-suicidios.jpg"
-                class="card-img-top"
-                alt="Portada del libro La casa de los suicidios de Charlie Donlea"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>La casa de los suicidios</strong>
-              </h3>
-              <p class="card-author mb-2"><strong>Charlie Donlea</strong></p>
-              <p class="card-price">$26.900,00</p>
-            </div>
-          </div>
-          <!--card 4-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="sitioEnConstruccion.html"
-              aria-label="Ver detalles del libro La chica que se llevaron de Charlie Donlea"
-            >
-              <img
-                src="../img/novelaPolicial/laChicaQueSeLlevaron.jpg"
-                class="card-img-top"
-                alt="Portada del libro La chica que se llevaron de Charlie Donlea"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>La chica que se llevaron</strong>
-              </h3>
-              <p class="card-author mb-2"><strong>Charlie Donlea</strong></p>
-              <p class="card-price">$26.900,00</p>
-            </div>
-          </div>
-        </div>
-        <!--el div de abajo es la 2da fila de cards-->
-        <div class="row justify-content-center mb-3">
-          <!-- Card 5-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="sitioEnConstruccion.html"
-              aria-label="Ver detalles del libro El silencio de la ciudad blanca de Eva García Sáenz de Urturi"
-            >
-              <img
-                src="../img/novelaPolicial/el-silencio-de-la-ciudad.jpg"
-                class="card-img-top"
-                alt="Portada del libro El silencio de la ciudad blanca de Eva García Sáenz de Urturi"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>El silencio de la ciudad blanca</strong>
-              </h3>
-              <p class="card-author mb-2">
-                <strong>Eva G. S. de Urturi</strong>
-              </p>
-              <p class="card-price">$33.600,00</p>
-            </div>
-          </div>
-          <!-- Card 6-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="sitioEnConstruccion.html"
-              aria-label="Ver detalles del libro El Intercambio de John Grisham"
-            >
-              <img
-                src="../img/novelaPolicial/elIntercambio.jpg"
-                class="card-img-top"
-                alt="Portada del libro El Intercambio de John Grisham"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>El intercambio</strong>
-              </h3>
-              <p class="card-author mb-2">
-                <strong>John Grisham</strong>
-              </p>
-              <p class="card-price">$29.199,00</p>
-            </div>
-          </div>
-          <!-- Card 7-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="sitioEnConstruccion.html"
-              aria-label="Ver detalles del libro El problema final de Arturo Perez-Reverte"
-            >
-              <img
-                src="../img/novelaPolicial/elProblemaFinal.jpg"
-                class="card-img-top"
-                alt="Portada del libro El problema final de Arturo Perez-Reverte"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>El problema final</strong>
-              </h3>
-              <p class="card-author mb-2">
-                <strong>Arturo Perez-Reverte</strong>
-              </p>
-              <p class="card-price">$26.299,00</p>
-            </div>
-          </div>
-          <!-- Card 8-->
-          <div class="card col-lg-2 col-md-3 col-6">
-            <a
-              href="sitioEnConstruccion.html"
-              aria-label="Ver detalles del libro Cuentos Policiales de Edgar Allan Poe"
-            >
-              <img
-                src="../img/novelaPolicial/cuentosPoliciales.jpg"
-                class="card-img-top"
-                alt="Portada del libro Cuentos Policiales de Edgar Allan Poe"
-              />
-            </a>
-            <div class="card-body py-1">
-              <h3 class="card-title fs-5">
-                <strong>Cuentos policiales</strong>
-              </h3>
-              <p class="card-author mb-2">
-                <strong>Edgar Allan Poe</strong>
-              </p>
-              <p class="card-price">$18.500,00</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Novela Policial - Mundos de Tinta</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="../css/home.css"
+		/>
+	</head>
+	<body class="d-flex flex-column min-vh-100">
+		<header class="sticky-top">
+			<a
+				href="#principal"
+				class="visually-hidden"
+				>Saltar al contenido principal</a
+			>
+			<nav
+				class="navbar navbar-expand-lg bg-custom shadow rounded-bottom"
+			>
+				<div class="container">
+					<a
+						class="navbar-brand d-flex align-items-center"
+						href="home.html"
+					>
+						<img
+							src="../img/logo.png"
+							alt="Logo Librería"
+							width="50"
+							height="50"
+							class="d-inline-block align-top img-fluid"
+						/>
+						<h1 class="logo-text fs-5 ms-2 mb-0">
+							Mundos de tinta
+						</h1>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarNav"
+					>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item dropdown dropdown-hover mx-2">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="categoriesDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Categorías
+								</a>
+								<ul
+									class="dropdown-menu mt-3"
+									aria-labelledby="categoriesDropdown"
+								>
+									<li>
+										<a
+											class="dropdown-item"
+											href="cienciaFiccion.html"
+											>Ciencia Ficción</a
+										>
+									</li>
+									<li>
+										<a
+											class="dropdown-item"
+											href="novelaPolicial.html"
+											>Policiales</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item mx-2">
+								<a
+									class="nav-link"
+									href="#"
+									>Quiénes Somos</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main id="principal">
+			<div class="container my-3">
+				<h2 class="h2 ms-5">Novela policíaca</h2>
+				<div class="container ms-lg-5">
+					<p class="py-2">
+						La novela policíaca es un género narrativo en donde la
+						trama consiste generalmente en la resolución de un
+						misterio de tipo criminal.
+					</p>
+				</div>
+				<!--el div de abajo es la 1ra fila de cards-->
+				<div class="row justify-content-center mb-3">
+					<!--card 1-->
+					<div class="card col-lg-2 col-md-3 col-6 mb-0">
+						<!-- link a pagina de detalles-->
+						<a href="elPsicoanalistaEnLaMira.html">
+							<img
+								src="../img/novelaPolicial/elPsicoanalistaEnLaMira.jpg"
+								class="card-img-top"
+								alt="Portada del libro El psicoanalista en la mira de John Katzenbach. Ver los detalles de este libro."
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong> El psicoanalista en la mira</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong> John Katzenbach</strong>
+							</p>
+							<p class="card-price">$40.399,00</p>
+						</div>
+					</div>
+					<!--card 2-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<!-- link a pagina de detalles-->
+						<a href="elLibroDelSepulturero.html">
+							<img
+								src="../img/novelaPolicial/el-sepulturero.jpg"
+								class="card-img-top"
+								alt="Portada del libro El libro del sepulturero de Oliver Pötzsch. Ver los detalles de este libro"
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong> El libro del sepulturero</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong> Oliver Pötzsch</strong>
+							</p>
+							<p class="card-price">$24.720,05</p>
+						</div>
+					</div>
+					<!--card 3-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="laCasaDeLosSuicidios.html">
+							<img
+								src="../img/novelaPolicial/la-casa-de-los-suicidios.jpg"
+								class="card-img-top"
+								alt="Portada del libro La casa de los suicidios de Charlie Donlea"
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>La casa de los suicidios</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>Charlie Donlea</strong>
+							</p>
+							<p class="card-price">$26.900,00</p>
+						</div>
+					</div>
+					<!--card 4-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="laChicaQueSeLlevaron.html">
+							<img
+								src="../img/novelaPolicial/laChicaQueSeLlevaron.jpg"
+								class="card-img-top"
+								alt="Portada del libro La chica que se llevaron de Charlie Donlea. Ver los detalles de este libro."
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>La chica que se llevaron</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>Charlie Donlea</strong>
+							</p>
+							<p class="card-price">$26.900,00</p>
+						</div>
+					</div>
+				</div>
+				<!--el div de abajo es la 2da fila de cards-->
+				<div class="row justify-content-center mb-3">
+					<!-- Card 5-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="sitioEnConstruccion.html">
+							<img
+								src="../img/novelaPolicial/el-silencio-de-la-ciudad.jpg"
+								class="card-img-top"
+								alt="Portada del libro El silencio de la ciudad blanca de Eva García Sáenz de Urturi. Ver los detalles del libro"
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>El silencio de la ciudad blanca</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>Eva G. S. de Urturi</strong>
+							</p>
+							<p class="card-price">$33.600,00</p>
+						</div>
+					</div>
+					<!-- Card 6-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="sitioEnConstruccion.html">
+							<img
+								src="../img/novelaPolicial/elIntercambio.jpg"
+								class="card-img-top"
+								alt="Portada del libro El Intercambio de John Grisham. Ver los detalles del libro."
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>El intercambio</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>John Grisham</strong>
+							</p>
+							<p class="card-price">$29.199,00</p>
+						</div>
+					</div>
+					<!-- Card 7-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="sitioEnConstruccion.html">
+							<img
+								src="../img/novelaPolicial/elProblemaFinal.jpg"
+								class="card-img-top"
+								alt="Portada del libro El problema final de Arturo Perez-Reverte. Ver los detalles del libro."
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>El problema final</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>Arturo Perez-Reverte</strong>
+							</p>
+							<p class="card-price">$26.299,00</p>
+						</div>
+					</div>
+					<!-- Card 8-->
+					<div class="card col-lg-2 col-md-3 col-6">
+						<a href="sitioEnConstruccion.html">
+							<img
+								src="../img/novelaPolicial/cuentosPoliciales.jpg"
+								class="card-img-top"
+								alt="Portada del libro Cuentos Policiales de Edgar Allan Poe. Ver los detalles del libro."
+							/>
+						</a>
+						<div class="card-body py-1">
+							<h3 class="card-title fs-5">
+								<strong>Cuentos policiales</strong>
+							</h3>
+							<p class="card-author mb-2">
+								<strong>Edgar Allan Poe</strong>
+							</p>
+							<p class="card-price">$18.500,00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 
-    <footer class="footer mt-auto py-3 bg-custom shadow rounded-top">
-      <div class="container text-center py-3">
-        <p class="text-light">
-          © 2024 Mundos de Tinta - Librería Online. Todos los derechos
-          reservados.
-        </p>
-      </div>
-    </footer>
+		<footer class="footer mt-auto py-3 bg-custom shadow rounded-top">
+			<div class="container text-center py-3">
+				<p class="text-light">
+					© 2024 Mundos de Tinta - Librería Online. Todos los derechos
+					reservados.
+				</p>
+			</div>
+		</footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
