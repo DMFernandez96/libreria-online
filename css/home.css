@@ -96,11 +96,16 @@ body {
 /* ===================== */
 /* Sección: Datos y boton "Comprar" en pagina de detalles */
 /* ===================== */
-.details-title {
+.details-title,
+.category-title {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: #004d40;
   font-size: 1.5rem;
+}
+
+.category-title {
+  font-size: xx-large;
 }
 
 .details-text {
